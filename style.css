@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color:#D5E7B8;
+    background-image: url(media/bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width:100vw;
+    height:100vh;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    padding-left: 220px;
+    padding-right: 220px;
+    height: 100px;
+    text-align: center;
+}
+
+header h3 {
+    font-size: 70px;
+    color: #a7d489cc;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color:#a7d489b1;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+nav a {
+    color:#A7D489;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+nav a:visited {
+    color:#D5E7B8;
+    background-color: transparent;
+    text-decoration: none;
+}
+ 
+nav a:hover {
+    color:#CAAD7E;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ 
+nav a:active {
+    color:#D5E7B8;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ 
+main {
+    height: 400px; 
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+main h1 {
+    font-size: 75px;
+    color: #A7D489;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+main h2 {
+    font-size: 30px;
+    color: #CAAD7E;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #f6f6dbd7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.play img {
+    height: 100px;
+    width: 110px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #a7d489b1;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #8f7447;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color:#3b6e19;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+footer a:visited {
+    color:#4a7430;
+    background-color: transparent;
+    text-decoration: none;
+}
+ 
+footer a:hover {
+    color:#CAAD7E;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ 
+footer a:active {
+    color:#4a7430;
+    background-color: transparent;
+    text-decoration: underline;
+}
